@@ -73,7 +73,7 @@ export const SidebarLink = styled(Link)`
     font-family: 'GT Walsheim Pro';
     font-size: 2em;
 
-    &:hover{
+    &:active{
         transition: 0.2s ease-in-out;
         background-color: #ff9067;
     }
