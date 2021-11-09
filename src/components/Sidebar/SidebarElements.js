@@ -31,7 +31,7 @@ export const CloseIcon = styled(FaTimes)`
     positon: fixed;
     right: 10px;
 
-    &:hover{
+    &:active{
         transition: 0.3s ease-in-out;
         transform: rotate(180deg);
     }
