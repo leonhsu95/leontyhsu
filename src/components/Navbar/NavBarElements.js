@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     top: 0;
     z-index: 10;
     font-family: 'GT Walsheim Pro';
@@ -18,7 +18,7 @@ export const Nav = styled.nav`
     position: sticky;
     box-shadow: 1px 1px 5px #afa3a3;
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 767px){
         transition: 0.8s all ease;
         position: sticky;
         height: 80px;
@@ -36,9 +36,14 @@ export const NavBarContainer = styled.div`
     align-items: center;
     
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 767px){
         //height: 70px;
         padding: 0 0 0 30px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1366px){
+        //height: 70px;
+        padding: 0 30px;
     }
 
 `;
@@ -52,7 +57,7 @@ export const NavLogo = styled(LinkRouter)`
     text-decoration: none;
     width: 150px;
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 767px){
         margin-left: 0px;
     }
 `;
@@ -60,7 +65,7 @@ export const NavLogo = styled(LinkRouter)`
 export const MobileIcon = styled.div`
     display: none;
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 767px){
         display: block;
         position: absolute;
         top: 0;
@@ -79,7 +84,7 @@ export const NavMenu = styled.ul`
     text-align: center;
     margin-right: -22px;
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 767px){
         display: none;
     }
 `;
@@ -96,7 +101,7 @@ export const NavLinks = styled(LinkRouter)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 1.5px;
 

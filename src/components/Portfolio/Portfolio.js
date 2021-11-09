@@ -121,7 +121,7 @@ const Portfolio = () => {
                   }}
               ><img src={SPVPicture} alt="Sydney Property Valuations"></img></motion.div>
               </Link>
-              <Link className="box10" to="/idoleyes">
+              <Link className="box7" to="/idoleyes">
                 <motion.div 
                   whileHover={{
                       scale: 1.05
@@ -151,7 +151,7 @@ const Portfolio = () => {
                   }}
               ><img src={HFPPicture} alt="Hills Family Physio"></img></motion.div>
               </Link>
-              <Link className="box7" to="/sydneycontacts">
+              <Link className="box10" to="/sydneycontacts">
                 <motion.div 
                   whileHover={{
                       scale: 1.05

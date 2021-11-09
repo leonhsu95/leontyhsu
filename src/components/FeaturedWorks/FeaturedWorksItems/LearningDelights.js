@@ -23,7 +23,7 @@ const LearningDelights = () => {
             </ul>
         </div>
         <div className="button-container desktop-wrapper">
-          <p>Refreshing one client&apos;s love for culture into a website</p>
+          <p>Refreshing one client&apos;s love for culture into a website.</p>
           <Link className="link" to="/learningdelights">About Project</Link>
           {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
           <a className="link" href="https://learningdelights.com.au" _blank="true">Website</a>
