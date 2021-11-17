@@ -5,12 +5,12 @@ import ttwd from '../../Assets/Images/thetechword-portfolio-desktop.png'
 const TheTechWord = () => {
     return (
         <article className="index-projects mobile-wrapper">
-        <h3 className="desktop-wrapper">Budget Tracker</h3>
+        <h3 className="desktop-wrapper">The Tech Word</h3>
 
         <div className="project-container"> 
             
             <div className="index-project-picture">
-              <img src={ttwd} alt="Budget Tracker"></img>
+              <img src={ttwd} alt="The Tech Word"></img>
             </div>
 
             <ul className="stack-list">

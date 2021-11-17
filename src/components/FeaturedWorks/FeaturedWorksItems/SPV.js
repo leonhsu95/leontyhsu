@@ -5,12 +5,12 @@ import spvd from '../../Assets/Images/spv-portfolio-desktop.png'
 const SPV = () => {
     return (
         <article className="index-projects mobile-wrapper">
-        <h3 className="desktop-wrapper">Hills Family Physio</h3>
+        <h3 className="desktop-wrapper">Sydney Property Valuations</h3>
 
         <div className="project-container"> 
             
             <div className="index-project-picture">
-              <img src={spvd} alt="Hills Family Physio"></img>
+              <img src={spvd} alt="Sydney Property Valuations"></img>
             </div>
 
             <ul className="stack-list">
