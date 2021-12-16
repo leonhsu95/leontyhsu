@@ -26,7 +26,7 @@ const TheTechWord = () => {
             </ul>
         </div>
         <div className="button-container desktop-wrapper">
-          <p>Track your budget with this simple web app.</p>
+          <p>A Prototype CMS Blog Web App.</p>
           <Link className="link" to="/thetechword">About Project</Link>
           {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
           <a className="link" href="https://tech-blog-lh.herokuapp.com/" _blank="true">Website</a>

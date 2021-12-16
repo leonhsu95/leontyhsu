@@ -23,7 +23,7 @@ const Idoleyes = () => {
             </ul>
         </div>
         <div className="button-container desktop-wrapper">
-          <p>Opening an online shopfront to sell children's sunglasses</p>
+          <p>Opening an online shopfront to sell children's sunglasses.</p>
           <Link className="link" to="/idoleyes">About Project</Link>
           <a href="https://idoleyes.com.au/" _blank="true">Website</a>
           

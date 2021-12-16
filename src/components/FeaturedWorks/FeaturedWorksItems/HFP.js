@@ -23,7 +23,7 @@ const HFP = () => {
             </ul>
         </div>
         <div className="button-container desktop-wrapper">
-          <p>The first step to giving a practice an online existence</p>
+          <p>The first step to giving a practice an online presences.</p>
           <Link className="link" to="/hfp">About Project</Link>
           {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
           
