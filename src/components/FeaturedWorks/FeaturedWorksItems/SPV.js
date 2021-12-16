@@ -23,7 +23,7 @@ const SPV = () => {
             </ul>
         </div>
         <div className="button-container desktop-wrapper">
-          <p>The first step to giving a practice an online existence</p>
+          <p>A refreshing update to an existing business website.</p>
           <Link className="link" to="/spv">About Project</Link>
           <a href="https://sydneypropertyvaluations.com.au/" _blank="true">Website</a>
           

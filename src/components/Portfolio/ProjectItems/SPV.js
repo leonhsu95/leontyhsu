@@ -16,7 +16,7 @@ const SPVContent = () => {
                 >
                 <h1>Sydney Property Valuations</h1>
                 <p className="tagline">Property Valuations Business Website</p>
-                <p className="tagline-description">An update to an existing website</p>
+                <p className="tagline-description">A refreshing update to an existing business website</p>
                 <p className="tagline-description">Creator: Leon Hsu</p>
                 <br></br>
                 </motion.div>
