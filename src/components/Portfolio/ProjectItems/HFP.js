@@ -16,7 +16,7 @@ const HFPContent = () => {
                 >
                 <h1>Hills Family Physio</h1>
                 <p className="tagline">Physiotherapy Business Website</p>
-                <p className="tagline-description">The first step to giving a practice an online existence</p>
+                <p className="tagline-description">The first step to giving a practice an online presence.</p>
                 <p className="tagline-description">Creator: Leon Hsu</p>
                 <br></br>
                 </motion.div>
