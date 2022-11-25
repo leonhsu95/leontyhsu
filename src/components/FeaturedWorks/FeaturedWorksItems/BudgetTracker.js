@@ -29,7 +29,7 @@ const BudgetTracker = () => {
           <p>Track your budget with this simple web app.</p>
           <Link className="link" to="/budgettracker">About Project</Link>
           {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
-          <a className="link" href="https://budget-tracker-lh.herokuapp.com/" _blank="true">Website</a>
+          {/* <a className="link" href="https://budget-tracker-lh.herokuapp.com/" _blank="true">Website</a> */}
         </div>
       </article>
     )

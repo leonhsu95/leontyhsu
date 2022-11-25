@@ -5,7 +5,6 @@ import tcdm from '../../Assets/Images/thecolddrip-mobile.png'
 import { SiJavascript, SiReact, SiMongodb, SiNodemon, SiApollographql, SiGraphql, SiHeroku, SiAdobeillustrator, SiAdobephotoshop, SiAdobexd } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaSass, FaNpm, FaNodeJs } from "react-icons/fa";
 
-
 const TheColdDripContent = () => {
     return (
         <section className="project-items">
@@ -33,10 +32,9 @@ const TheColdDripContent = () => {
                     transition={{ duration: 1 }}
                 >
                 <a href="https://github.com/leonhsu95/the-cold-drip" _blank="true"> GitHub Repository</a>
-                <a href="https://the-cold-drip.herokuapp.com/" _blank="true">Website</a>
+                {/* <a href="https://the-cold-drip.herokuapp.com/" _blank="true">Website</a> */}
                 </motion.div>
                 
-           
             </div>
 
             <div className="desktop-wrapper mobile-wrapper project-items-container techstack-container">
@@ -74,22 +72,7 @@ const TheColdDripContent = () => {
 
             <div className="desktop-wrapper mobile-wrapper project-items-container">
                 <h2>Process</h2>
-                <p>
-                    The project was made as a demonstration of my accumulative knowledge of React into a website.
-                    I started with creating a design prototype using Adobe XD. In using the application, I mocked with general wireframes
-                    to establish a base layout so that the website structure doesn't deviate as I consider colour schemes and design ideas.
-                </p>
-
-                <p>
-                    Once I coded out the website structure as template componenets in React, I worked on the backend functionalities so that I can establish a connection, server
-                    and database using Express and MongoDB amongst many other technologies. Furthermore I used Apollo Server and GraphQL to test manipulate database information
-                    so that new coffee items and users can be added. 
-
-                </p>
-                <p>
-                    After core functionalities are working, I tested to see if the backend stored informationcan be displayed in the front end
-                    before I proceeded with the UX and UI design.
-                </p>
+                <p>The project was made as a demonstration of my accumulative knowledge of React into a website. I started with creating a design prototype using Adobe XD. In using the application, I mocked with general wireframes to establish a base layout so that the website structure doesn't deviate as I consider colour schemes and design ideas.\n Once I coded out the website structure as template componenets in React, I worked on the backend functionalities so that I can establish a connection, server and database using Express and MongoDB amongst many other technologies. Furthermore I used Apollo Server and GraphQL to test manipulate database information so that new coffee items and users can be added. \n With core functionalities are working, I tested the backend stored data can be displayed in the front end before I proceeding with UX/UI.</p>
             </div>
 
             <div className="desktop-wrapper mobile-wrapper project-items-container">

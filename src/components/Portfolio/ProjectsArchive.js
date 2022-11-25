@@ -1,9 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import CoffeeVideo from "../../Assets/Video/coffee.mp4"
+// import projectData from '../Data/ProjectData'
 
-const TheColdDrip = () => {
-    return (
+export default function Projects(props) {
+
+    // if(projectData){
+    //     projects = projectData.map(projects => {
+            
+      return (
         <article className="index-projects mobile-wrapper">
         <h3 className="desktop-wrapper">The Cold Drip</h3>
 
@@ -11,7 +14,7 @@ const TheColdDrip = () => {
             
             <div className="index-project-picture">
               <video autoPlay loop muted>
-                <source src={CoffeeVideo} ></source>
+                {/* <source src={CoffeeVideo} ></source> */}
               </video>
             </div>
 
@@ -30,12 +33,10 @@ const TheColdDrip = () => {
         </div>
         <div className="button-container desktop-wrapper">
           <p>Turning my coffee passion into an ECommerce idea.</p>
-          <Link className="link" to="/thecolddrip">About Project</Link>
-          {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
-          {/* <a className="link" href="https://the-cold-drip.herokuapp.com/" _blank="true">Website</a> */}
+          <button className="button-project">About Project</button>
+          <button className="button-website">Website</button>
         </div>
       </article>
     )
-}
 
-export default TheColdDrip
+}

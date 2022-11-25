@@ -94,8 +94,8 @@ const SydneyContactsContent = () => {
                <div className="desktop-wrapper mobile-wrapper project-items-container">
                 <h2>Final Design</h2>
                 <div id="screenshots">
-                  <img src={scd} alt="The Cold Drip Desktop Website"></img>
-                  <img src={scm} alt="The Cold Drip Mobile Website"></img>
+                  <img src={scd} alt="Sydney COntacts Desktop Website"></img>
+                  <img src={scm} alt="Sydney COntacts Mobile Website"></img>
                 </div>
             </div>
 

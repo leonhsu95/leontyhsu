@@ -29,7 +29,7 @@ const TheTechWordContent = () => {
                 >
                 {/* <p id="year" className="tagline-description">2019</p> */}
                 <a href="https://github.com/leonhsu95/tech-blog" _blank="true"> GitHub Repository</a>
-                <a href="https://tech-blog-lh.herokuapp.com/dashboard" _blank="true">Website</a>
+                {/* <a href="https://tech-blog-lh.herokuapp.com/dashboard" _blank="true">Website</a> */}
                 </motion.div>
             </div>
 

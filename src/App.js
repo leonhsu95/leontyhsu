@@ -30,7 +30,7 @@ function App() {
       <header id="header">
                 <Sidebar isOpen={isOpen} toggle={toggle}/>
                 <Navbar toggle={toggle}/>
-            </header>
+      </header>
       <AnimatePresence exitBeforeEnter>
         <Routes>
             <Route path="/" element={<Home/>} />

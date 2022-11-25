@@ -30,7 +30,7 @@ const Projectify = () => {
           <button className="button-website">Website</button> */}
           <Link className="link" to="/projectify">About Project</Link>
           {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
-          <a className="link" href="https://projectify-marketing-app.herokuapp.com/" _blank="true">Website</a>
+          {/* <a className="link" href="https://projectify-marketing-app.herokuapp.com/" _blank="true">Website</a> */}
             
         </div>
       </article>

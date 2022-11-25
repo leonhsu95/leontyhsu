@@ -131,7 +131,7 @@ const Portfolio = () => {
                   }}
               ><img src={IdoleyesPicture} alt="Idoleyes Australia"></img></motion.div>
               </Link>
-              <Link className="box8" to="/idoleyes">
+              <Link className="box8" to="/learningdelights">
                 <motion.div 
                   whileHover={{
                       scale: 1.05

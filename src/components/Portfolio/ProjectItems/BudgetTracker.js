@@ -29,7 +29,7 @@ const BudgetTrackerContent = () => {
                 >
                 {/* <p id="year" className="tagline-description">2019</p> */}
                 <a href="https://github.com/leonhsu95/budget-tracker" _blank="true"> GitHub Repository</a>
-                <a href="https://budget-tracker-lh.herokuapp.com/" _blank="true">Website</a>
+                {/* <a href="https://budget-tracker-lh.herokuapp.com/" _blank="true">Website</a> */}
                 </motion.div>
             </div>
 

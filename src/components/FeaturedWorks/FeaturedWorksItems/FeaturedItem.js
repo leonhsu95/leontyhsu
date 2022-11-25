@@ -17,14 +17,6 @@ const TheColdDrip = () => {
 
             <ul className="stack-list">
               <li>HTML</li>
-              <li>CSS</li>
-              <li>JS</li>
-              <li>React</li>
-              <li>NodeJS</li>
-              <li>Express</li>
-              <li>GraphQL</li>
-              <li>MongoDB</li>
-              <li>Stripe</li>
 
             </ul>
         </div>

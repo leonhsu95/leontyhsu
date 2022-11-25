@@ -28,7 +28,7 @@ const ProjectifyContent = () => {
                     transition={{ duration: 1 }}
                 >
                 <a href="https://github.com/leonhsu95/Projectify" _blank="true"> GitHub Repository</a>
-                <a href="https://projectify-marketing-app.herokuapp.com/" _blank="true">Website</a>
+                {/* <a href="https://projectify-marketing-app.herokuapp.com/" _blank="true">Website</a> */}
                 </motion.div>
             </div>
 
