@@ -2,6 +2,10 @@
   "name": "ltyh",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.16.1",
+    "npm": "8.3.0"
+  },
   "homepage": "https://leonhsu95.github.io/leontyhsu",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
