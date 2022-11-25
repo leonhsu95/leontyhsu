@@ -80,12 +80,18 @@ const AboutMePage = () => {
                 <p>
                 With each project, he engages the audience for an impactful UX/UI to clients and visitors, ensuring that their website requirements are fulfilled. He has created many websites as a freelance Developer for various clients, boosting their online profile with SEO, creative assets generation used for marketing and promotions and tracking business’s online sales. 
                 </p>
-                <p>When he's not coding, he enjoys travelling overseas, music, calisthenics fitness, watching sitcoms &amp; dramas and making all things coffee.</p>
+                <p>When he's not coding, he enjoys travelling overseas, music, fitness, watching sitcoms &amp; dramas and all things coffee.</p>
             </div>
 
-            <div id="links-container" className="desktop-wrapper mobile-wrapper">
+            {/* <div id="links-container" className="desktop-wrapper mobile-wrapper">
                 <p>Feel free to download my CV <a href={leonhsu95_oct2021} _blank="true">here</a>.</p>
+            </div> */}
+
+             <div id="links-container" className="desktop-wrapper mobile-wrapper">
+             <p>Feel free to look at my <a href="https://www.linkedin.com/in/leonhsu95/" _blank="true">LinkedIn Profile</a> to learn more about his career. </p>
             </div>
+
+
         </section>
         <Footer/>
         </motion.div>
