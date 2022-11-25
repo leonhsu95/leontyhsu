@@ -17,7 +17,7 @@ const SydneyContactsContent = () => {
                 >
                 <h1>Sydney Contacts</h1>
                 <p className="tagline">Contact Lenses ECommerce Shopfront</p>
-                <p className="tagline-description">Expanding an Optomotry Business to sell contact lenses online</p>
+                <p className="tagline-description">Expanding an Optometry Business to sell contact lenses online</p>
                 <p className="tagline-description">Creator: Leon Hsu</p>
                 <br></br>
                 </motion.div>
