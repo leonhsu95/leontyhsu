@@ -24,7 +24,7 @@ const TheColdDrip = () => {
           <p>Turning my coffee passion into an ECommerce idea.</p>
           <Link className="link" to="/thecolddrip">About Project</Link>
           {/* <a href="https://github.com/leonhsu95/Projectify" _blank="true">About Project</a> */}
-          {/* <a className="link" href="https://the-cold-drip.herokuapp.com/" _blank="true">Website</a> */}
+          <a className="link" href="https://the-cold-drip.herokuapp.com/" _blank="true">Website</a>
         </div>
       </article>
     )
