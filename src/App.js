@@ -33,7 +33,7 @@ function App() {
       </header>
       <AnimatePresence exitBeforeEnter>
         <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/leontyhsu" element={<Home/>} />
             <Route path="/portfolio" element={<PortfolioPage/>}/>
             <Route path="/aboutme" element={<AboutMePage/>}/>
             <Route path="/thecolddrip" element={<TheColdDripPage/>}/>

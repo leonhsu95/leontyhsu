@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavBarContainer>
-                    <NavLogo id="logo" to='/'><img id="logo-design" src={LeonLogo} alt="Leon Hsu"></img></NavLogo>
+                    <NavLogo id="logo" to='/leontyhsu'><img id="logo-design" src={LeonLogo} alt="Leon Hsu"></img></NavLogo>
                     {/* <div id="logo">
                         <h2><a href="/"><img id="logo-design" src="assets/designs/leonhsulogo.png" alt="Leon Hsu Logo"></img></a></h2>
                     </div> */}
